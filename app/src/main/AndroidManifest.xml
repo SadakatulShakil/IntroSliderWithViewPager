@@ -9,6 +9,7 @@
         android:roundIcon="@drawable/barcode"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".View.SignInActivity"></activity>
         <activity android:name=".View.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -16,8 +17,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".View.WelcomeActivity"></activity>
-        <activity android:name=".View.MainActivity"></activity>
+        <activity android:name=".View.WelcomeActivity" />
+        <activity android:name=".View.MainActivity" />
     </application>
 
 </manifest>
