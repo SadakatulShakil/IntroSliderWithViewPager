@@ -4,15 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".View.MainActivity">
-
-
-            <ImageView
-                android:id="@+id/wall"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:src="@drawable/scan"
-                android:layout_below="@+id/logoImage" />
+    android:background="@drawable/newslider"
+    tools:context=".View.SplashActivity">
 
             <TextView
                 android:id="@+id/casterTV"
@@ -28,7 +21,6 @@
                 android:textStyle="bold" />
 
             <ImageView
-                android:id="@+id/logoImage"
                 android:layout_width="80dp"
                 android:layout_height="90dp"
                 android:layout_margin="5dp"

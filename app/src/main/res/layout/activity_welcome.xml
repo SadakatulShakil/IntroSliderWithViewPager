@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".WelcomeActivity">
+    tools:context=".View.WelcomeActivity">
 
 
     <androidx.viewpager.widget.ViewPager
@@ -33,24 +33,44 @@
         android:layout_margin="5dp"
         android:background="@color/viewColor" />
 
-    <Button
+    <TextView
         android:id="@+id/skipBT"
         android:layout_width="wrap_content"
         android:layout_height="35dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentBottom="true"
-        android:layout_margin="5dp"
-        android:background="@drawable/background_material_design"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="5dp"
+        android:textColor="@color/black"
+        android:drawableRight="@drawable/skip"
+        android:background="@color/appBackGround"
         android:text="skip" />
 
-    <Button
+    <TextView
         android:id="@+id/nextBT"
         android:layout_width="wrap_content"
         android:layout_height="35dp"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_margin="5dp"
-        android:background="@drawable/background_material_design"
-        android:text="next" />
+        android:layout_margin="8dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:drawableRight="@drawable/arrow"
+        android:background="@color/appBackGround"
+        android:text="Next" />
+
+    <TextView
+        android:id="@+id/previousBT"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:layout_margin="8dp"
+        android:textColor="@color/black"
+        android:drawableLeft="@drawable/previous"
+        android:background="@color/appBackGround"
+        android:text="Previous" />
 
 </RelativeLayout>
